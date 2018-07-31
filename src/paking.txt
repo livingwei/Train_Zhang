@@ -1,0 +1,15 @@
+Give a aCar Stop Draw Total
+When Total > maxTotal Stop
+Then aCar Total++
+
+Give a aCar Stop Draw Total
+When aCar Draw
+Then Total--
+
+Give a Stop Draw Total
+When Total = maxTotal Stop
+Then err
+
+Give a Stop Draw Total
+When aCar Draw
+Then err
